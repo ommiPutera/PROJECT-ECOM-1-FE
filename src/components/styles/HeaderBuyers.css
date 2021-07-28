@@ -1,0 +1,32 @@
+.header-buyers-container {
+  display: flex;
+  position: sticky;
+  background-color: white;
+  align-items: center;
+  box-shadow: rgb(0 0 0 / 7%) 0px 4px 6px;
+  height: 100px;
+  padding: 0 3% 0 3%;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  z-index: 999;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.hb-left {
+  flex: 1;
+  /* background-color: yellow; */
+}
+
+.hb-center {
+  flex: 1;
+  /* background-color: green; */
+}
+
+.hb-right {
+  flex: 1;
+  /* background-color: blue; */
+}

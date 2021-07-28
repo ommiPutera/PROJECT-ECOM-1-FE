@@ -1,0 +1,26 @@
+.name-header-buyers-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.nhb-content {
+  text-decoration: none;
+  color: rgb(80, 80, 80);
+}
+
+.nhb-name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background-color: white;
+  padding: 7px 18px;
+  border-radius: 8px;
+  transition: 0.7s;
+}
+
+.nhb-name:hover {
+  transition: 0.5s;
+  background-color: rgb(247, 247, 247);
+}
