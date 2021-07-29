@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import HeaderBuyers from "../../components/HeaderBuyers";
+import HeaderBuyers from "../../components/header/HeaderBuyers";
 
 const Home = () => {
   return (

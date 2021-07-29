@@ -26,6 +26,26 @@
   background-color: rgb(247, 247, 247);
 }
 
+.white-back {
+  background-color: transparent;
+  position: fixed;
+  top: 70px;
+  width: 60px;
+  height: 20px;
+}
+
+.iic-1:hover .ihb-cart-container {
+  display: block;
+}
+
+.iic-2:hover .ihb-notif-container {
+  display: block;
+}
+
+.iic-3:hover .ihb-message-container {
+  display: block;
+}
+
 .ihb-icon {
   color: rgb(80, 80, 80);
 }
@@ -34,4 +54,46 @@
   flex: 0.5;
   display: flex;
   justify-content: space-evenly;
+}
+
+.ihb-container-onhover {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(225, 192, 149);
+}
+
+.ihb-cnm-container {
+  position: fixed;
+  display: none;
+  height: auto;
+  min-height: 100px;
+  max-height: 500px;
+  top: 85px;
+  box-shadow: rgb(0 0 0 / 7%) 0px 0px 7px;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+
+.ihb-cnm-container:hover {
+  display: block;
+}
+
+.ihb-cart-container {
+  width: 400px;
+  background-color: rgb(255, 255, 255);
+}
+
+.cart-content {
+  transition: 1s !important;
+}
+
+.ihb-notif-container {
+  width: 300px;
+  background-color: rgb(255, 255, 255);
+}
+
+.ihb-message-container {
+  width: 200px;
+  background-color: rgb(255, 255, 255);
+
 }

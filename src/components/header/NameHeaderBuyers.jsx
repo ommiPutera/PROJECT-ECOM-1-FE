@@ -3,7 +3,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import { Link } from "react-router-dom";
 import { deepPurple } from "@material-ui/core/colors";
 import Avatar from "@material-ui/core/Avatar";
-import "./styles/NameHeaderBuyers.css";
+import "../styles/NameHeaderBuyers.css";
 
 const useStyles = makeStyles((theme) => ({
   purple: {

@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import IconHeaderBuyers from "./IconHeaderBuyers";
-import "./styles/HeaderBuyers.css";
+import SearchInputBuyers from "./SearchInputBuyers";
+import "../styles/HeaderBuyers.css";
 
 const HeaderBuyers = () => {
   return (
@@ -11,7 +12,9 @@ const HeaderBuyers = () => {
           Logo
         </Link>
       </div>
-      <div className="hb-center">Center</div>
+      <div className="hb-center">
+        <SearchInputBuyers />
+      </div>
       <div className="hb-right">
         <IconHeaderBuyers />
       </div>
