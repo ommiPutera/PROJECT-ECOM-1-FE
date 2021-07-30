@@ -5,11 +5,21 @@
   align-items: center;
   box-shadow: rgb(0 0 0 / 7%) 0px 4px 6px;
   height: 100px;
-  padding: 0 3% 0 3%;
+  padding: 0 4% 0 4%;
   top: 0px;
   right: 0px;
   left: 0px;
   z-index: 999;
+}
+
+.header-brand {
+  font-weight: 800;
+  font-size: 23px;
+  color: #052c43;
+}
+
+.dot-header {
+  color: #89adc3;
 }
 
 .link {
@@ -17,16 +27,17 @@
 }
 
 .hb-left {
-  flex: 1;
-  /* background-color: yellow; */
+  flex: 0.8;
 }
 
 .hb-center {
-  flex: 1.5;
-  /* background-color: green; */
+  flex: 2;
 }
 
 .hb-right {
   flex: 1;
-  /* background-color: blue; */
+}
+
+.hb-right-notuser {
+  flex: 0.9;
 }

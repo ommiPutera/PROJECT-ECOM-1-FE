@@ -10,6 +10,19 @@
   justify-content: space-evenly;
 }
 
+.ihb-left-notuser {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ihb-right {
+  flex: 0.5;
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .ihb-icon-container {
   display: flex;
   align-items: center;
@@ -21,9 +34,39 @@
   transition: 0.7s;
 }
 
+.ihb-icon-container-register {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background-color: white;
+  padding: 10px;
+  border-radius: 8px;
+  transition: 0.5s;
+}
+
 .ihb-icon-container:hover {
   transition: 0.5s;
   background-color: rgb(247, 247, 247);
+}
+
+.ihb-icon-container-register:hover {
+  transition: 0.3s;
+  background-color: rgb(247, 247, 247);
+  color: rgb(80, 80, 80);
+}
+
+.login-header {
+  font-weight: 700;
+  padding: 13px 30px 13px 30px;
+  background-color: rgb(247, 247, 247);
+}
+
+.register-header {
+  font-weight: 700;
+  padding: 13px 23px 13px 23px;
+  background-color: #052c43;
+  color: white;
 }
 
 .white-back {
@@ -48,12 +91,6 @@
 
 .ihb-icon {
   color: rgb(80, 80, 80);
-}
-
-.ihb-right {
-  flex: 0.5;
-  display: flex;
-  justify-content: space-evenly;
 }
 
 .ihb-container-onhover {
@@ -95,5 +132,4 @@
 .ihb-message-container {
   width: 200px;
   background-color: rgb(255, 255, 255);
-
 }

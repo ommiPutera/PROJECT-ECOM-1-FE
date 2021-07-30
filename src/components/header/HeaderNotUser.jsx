@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import IconHeaderBuyers from "./IconHeaderBuyers";
+import IconHeaderNotUser from "./IconHeaderNotUser";
 import SearchInputBuyers from "./SearchInputBuyers";
 import "../styles/Header.css";
 
@@ -17,8 +17,8 @@ const HeaderBuyers = () => {
       <div className="hb-center">
         <SearchInputBuyers />
       </div>
-      <div className="hb-right">
-        <IconHeaderBuyers />
+      <div className="hb-right-notuser">
+        <IconHeaderNotUser />
       </div>
     </div>
   );

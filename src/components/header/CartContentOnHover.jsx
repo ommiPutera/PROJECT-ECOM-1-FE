@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import QueryBuilderIcon from "@material-ui/icons/QueryBuilder";
-import CachedIcon from '@material-ui/icons/Cached';
-import LocalShippingOutlinedIcon from '@material-ui/icons/LocalShippingOutlined';
-import PinDropOutlinedIcon from '@material-ui/icons/PinDropOutlined';
+import CachedIcon from "@material-ui/icons/Cached";
+import LocalShippingOutlinedIcon from "@material-ui/icons/LocalShippingOutlined";
+import PinDropOutlinedIcon from "@material-ui/icons/PinDropOutlined";
 import Badge from "@material-ui/core/Badge";
 import "../styles/CartContentOnHover.css";
 
@@ -46,45 +46,45 @@ export default function IconHeaderBuyers(props) {
 
   const renderNotifContent = () => {
     return (
-      <div className="container-content-ccon">
+      <div className="container-content-ccon-2">
         <div>
-        <Badge badgeContent={1} color="secondary">
-          <QueryBuilderIcon
-            style={{
-              fontSize: "35px",
-            }}
-          />
-        </Badge>
+          <Badge badgeContent={1} color="secondary">
+            <QueryBuilderIcon
+              style={{
+                fontSize: "30px",
+              }}
+            />
+          </Badge>
         </div>
 
         <div>
-        <Badge badgeContent={2} color="secondary">
-          <CachedIcon
-            style={{
-              fontSize: "35px",
-            }}
-          />
-        </Badge>
+          <Badge badgeContent={2} color="secondary">
+            <CachedIcon
+              style={{
+                fontSize: "30px",
+              }}
+            />
+          </Badge>
         </div>
 
         <div>
-        <Badge badgeContent={0} color="secondary">
-          <LocalShippingOutlinedIcon
-            style={{
-              fontSize: "35px",
-            }}
-          />
-        </Badge>
+          <Badge badgeContent={0} color="secondary">
+            <LocalShippingOutlinedIcon
+              style={{
+                fontSize: "30px",
+              }}
+            />
+          </Badge>
         </div>
 
         <div>
-        <Badge badgeContent={0} color="secondary">
-          <PinDropOutlinedIcon
-            style={{
-              fontSize: "35px",
-            }}
-          />
-        </Badge>
+          <Badge badgeContent={0} color="secondary">
+            <PinDropOutlinedIcon
+              style={{
+                fontSize: "30px",
+              }}
+            />
+          </Badge>
         </div>
       </div>
     );

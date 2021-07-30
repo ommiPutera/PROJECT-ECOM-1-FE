@@ -25,6 +25,12 @@
   justify-content: space-between;
 }
 
+.container-content-ccon-2 {
+  display: flex;
+  margin: 35px 0px 20px 0px;
+  justify-content: space-between;
+}
+
 .proudctname-ccon-cart {
   font-size: 13px;
 }

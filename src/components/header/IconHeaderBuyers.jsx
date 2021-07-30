@@ -6,7 +6,7 @@ import MailOutlineIcon from "@material-ui/icons/MailOutline";
 import Badge from "@material-ui/core/Badge";
 import NameHeaderBuyers from "./NameHeaderBuyers";
 import CartContentOnHover from "./CartContentOnHover";
-import "../styles/IconHeaderBuyers.css";
+import "../styles/IconHeader.css";
 
 export default function IconHeaderBuyers() {
   return (

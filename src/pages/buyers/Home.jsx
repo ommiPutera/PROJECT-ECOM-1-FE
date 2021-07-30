@@ -1,10 +1,12 @@
 import React, { useState } from "react";
 import HeaderBuyers from "../../components/header/HeaderBuyers";
+import HeaderNotUser from "../../components/header/HeaderNotUser";
 
 const Home = () => {
   return (
     <div>
-      <HeaderBuyers />
+      {/* <HeaderBuyers /> */}
+      <HeaderNotUser />
       <h1>Home</h1>
       <h1>Home</h1>
       <h1>Home</h1>
