@@ -53,26 +53,27 @@
 .ihb-icon-container-register:hover {
   transition: 0.3s;
   background-color: rgb(247, 247, 247);
-  color: rgb(80, 80, 80);
+  color: #C4C4C4;
 }
 
 .login-header {
   font-weight: 700;
   padding: 13px 30px 13px 30px;
   background-color: rgb(247, 247, 247);
+  color: #C4C4C4;
 }
 
 .register-header {
   font-weight: 700;
   padding: 13px 23px 13px 23px;
-  background-color: #052c43;
+  background-color: #185ADB;
   color: white;
 }
 
 .white-back {
   background-color: transparent;
   position: fixed;
-  top: 70px;
+  top: 100px;
   width: 60px;
   height: 20px;
 }
@@ -105,7 +106,7 @@
   height: auto;
   min-height: 100px;
   max-height: 500px;
-  top: 85px;
+  top: 120px;
   box-shadow: rgb(0 0 0 / 7%) 0px 0px 7px;
   border-bottom-left-radius: 7px;
   border-bottom-right-radius: 7px;
@@ -125,7 +126,7 @@
 }
 
 .ihb-notif-container {
-  width: 300px;
+  width: 315px;
   background-color: rgb(255, 255, 255);
 }
 

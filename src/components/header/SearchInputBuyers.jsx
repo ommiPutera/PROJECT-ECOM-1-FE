@@ -33,19 +33,20 @@ const SearchInputBuyers = () => {
               outline: "none",
               padding: 8.3,
               paddingLeft: 20,
-              fontSize: "15px",
+              fontSize: "13px",
+              color: "rgb(130, 130, 130)"
             }}
             value={searchProduct}
             onChange={onInputChange}
             type="text"
-            placeholder="Search"
+            placeholder="Buku bergambar, Rak buku, Laptop, Gadget, Kalung, Cangkir ..."
             endAdornment={
               <InputAdornment position="end">
                 <IconButton
                   // onClick={}
                 >
                   <SearchIcon
-                    style={{ color: "rgb(80, 80, 80)", fontSize: "20px" }}
+                    style={{ color: "#C4C4C4", fontSize: "23px" }}
                     // onClick={}
                   />
                 </IconButton>

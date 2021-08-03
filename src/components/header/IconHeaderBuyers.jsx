@@ -5,6 +5,7 @@ import NotificationsNoneIcon from "@material-ui/icons/NotificationsNone";
 import MailOutlineIcon from "@material-ui/icons/MailOutline";
 import Badge from "@material-ui/core/Badge";
 import NameHeaderBuyers from "./NameHeaderBuyers";
+import TokoHeaderBuyers from "./TokoHeaderBuyers";
 import CartContentOnHover from "./CartContentOnHover";
 import "../styles/IconHeader.css";
 
@@ -12,51 +13,57 @@ export default function IconHeaderBuyers() {
   return (
     <div className="icon-header-buyers-container">
       <div className="ihb-left">
-        <Link to="/cart" className="link ihb-icon">
-          <div className="ihb-icon-container iic-1">
+        <div className="ihb-icon-container iic-1">
+          <Link to="/cart" className="link ihb-icon">
             <Badge badgeContent={0} color="secondary">
               <ShoppingCartOutlinedIcon
                 style={{
                   fontSize: "27px",
+                  color: "#C4C4C4"
                 }}
               />
             </Badge>
-            <div className="white-back"></div>
-            <div className="ihb-cart-container ihb-cnm-container">
-              <CartContentOnHover icon="cart" />
-            </div>
+          </Link>
+          <div className="white-back"></div>
+          <div className="ihb-cart-container ihb-cnm-container">
+            <CartContentOnHover icon="cart" />
           </div>
-        </Link>
-        <Link to="/cart" className="link ihb-icon">
-          <div className="ihb-icon-container iic-2">
+        </div>
+        <div className="ihb-icon-container iic-2">
+          <Link to="/cart" className="link ihb-icon">
             <Badge badgeContent={0} color="secondary">
               <NotificationsNoneIcon
                 style={{
                   fontSize: "28px",
+                  color: "#C4C4C4"
                 }}
               />
             </Badge>
-            <div className="white-back"></div>
-            <div className="ihb-notif-container ihb-cnm-container">
-              <CartContentOnHover icon="notification" />
-            </div>
+          </Link>
+          <div className="white-back"></div>
+          <div className="ihb-notif-container ihb-cnm-container">
+            <CartContentOnHover icon="notification" />
           </div>
-        </Link>
-        <Link to="/cart" className="link ihb-icon">
-          <div className="ihb-icon-container iic-3">
+        </div>
+        <div className="ihb-icon-container iic-3">
+          <Link to="/cart" className="link ihb-icon">
             <Badge badgeContent={0} color="secondary">
               <MailOutlineIcon
                 style={{
                   fontSize: "28px",
+                  color: "#C4C4C4"
                 }}
               />
             </Badge>
-            <div className="white-back"></div>
-            <div className="ihb-message-container ihb-cnm-container">
-              <CartContentOnHover icon="message" />
-            </div>
+          </Link>
+          <div className="white-back"></div>
+          <div className="ihb-message-container ihb-cnm-container">
+            <CartContentOnHover icon="message" />
           </div>
-        </Link>
+        </div>
+      </div>
+      <div className="ihb-right">
+        <TokoHeaderBuyers />
       </div>
       <div className="ihb-right">
         <NameHeaderBuyers />

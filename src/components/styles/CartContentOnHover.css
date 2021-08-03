@@ -15,20 +15,42 @@
 }
 
 .content-ccon-notif {
-  margin: 20px 0px 40px 0px;
+  display: flex;
+  justify-content: center;
+  margin: 10px 0px 10px 0px;
   font-weight: 700;
 }
 
 .container-content-ccon {
   display: flex;
-  margin: 20px 0px 20px 0px;
+  margin: 30px 0px 30px 0px;
   justify-content: space-between;
+}
+
+.container-empty-cart {
+  text-align: center;
+}
+
+.cart-ccon-text-1 {
+  font-size: 17px;
+  margin-top: 2%;
+}
+
+.cart-ccon-text-2 {
+  font-size: 14px;
+  font-weight: 600;
 }
 
 .container-content-ccon-2 {
   display: flex;
-  margin: 35px 0px 20px 0px;
+  margin: 10px 0px 10px 0px;
   justify-content: space-between;
+}
+
+.container-text-icon {
+  padding: 12px;
+  text-align: center;
+  font-size: 12px;
 }
 
 .proudctname-ccon-cart {

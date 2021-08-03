@@ -6,13 +6,13 @@ import Avatar from "@material-ui/core/Avatar";
 import "../styles/NameHeaderBuyers.css";
 
 const useStyles = makeStyles((theme) => ({
-  purple: {
+  black: {
     color: theme.palette.getContrastText(deepPurple[500]),
-    backgroundColor: deepPurple[500],
+    backgroundColor: "#185ADB",
     width: "35px",
     height: "35px",
     fontSize: "15px",
-    marginRight: "10px",
+    marginRight: "15px",
   },
   imageProfile: {
     width: "35px",
@@ -38,9 +38,9 @@ export default function NameHeaderBuyers() {
               src="/static/images/avatar/1.jpg"
             />
           ) : (
-            <Avatar className={classes.purple}>JA</Avatar>
+            <Avatar className={classes.black}>JA</Avatar>
           )}
-          <p>Jamaludin</p>
+          <p style={{ fontWeight: "700", fontSize: "17px", color: "#185ADB" }}>Jamaludin</p>
         </div>
       </Link>
     </div>

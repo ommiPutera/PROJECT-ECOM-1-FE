@@ -9,25 +9,24 @@ export default function IconHeaderBuyers() {
   return (
     <div className="icon-header-buyers-container">
       <div className="ihb-left-notuser">
-        <Link to="/cart" className="link ihb-icon">
-          <div className="ihb-icon-container iic-1">
+        <div className="ihb-icon-container iic-1">
+          <Link to="/cart" className="link ihb-icon">
             <Badge badgeContent={0} color="secondary">
               <ShoppingCartOutlinedIcon
                 style={{
                   fontSize: "27px",
+                  color: "#C4C4C4"
                 }}
               />
             </Badge>
-            <div className="white-back"></div>
-            <div className="ihb-cart-container ihb-cnm-container">
-              <CartContentOnHover icon="cart" />
-            </div>
+          </Link>
+          <div className="white-back"></div>
+          <div className="ihb-cart-container ihb-cnm-container">
+            <CartContentOnHover icon="cart" />
           </div>
-        </Link>
+        </div>
         <Link to="/login" className="link ihb-icon">
-          <div className="ihb-icon-container login-header">
-            Login
-          </div>
+          <div className="ihb-icon-container login-header">Login</div>
         </Link>
         <Link to="/register" className="link ihb-icon">
           <div className="ihb-icon-container-register register-header">

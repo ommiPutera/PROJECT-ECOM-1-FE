@@ -1,0 +1,14 @@
+.botton-jbt-shop {
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  right: 0;
+  margin-top: -120px;
+  margin-right: 83px;
+  background-color: rgb(247, 247, 247);
+  width: 130px;
+  height: 45px;
+  font-weight: 800;
+  border-radius: 5px;
+}
