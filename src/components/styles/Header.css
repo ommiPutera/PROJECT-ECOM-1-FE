@@ -22,17 +22,41 @@
 }
 
 .parent-header-container {
-  display: block;
-  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   box-shadow: rgb(0 0 0 / 7%) 0px 4px 6px;
-  height: 100px;
+  height: 120px;
   padding: 0 4% 0 4%;
   background-color: white;
 }
 
 .header-buyers-container {
   display: flex;
-  
+}
+
+.header-buyers-container-bottom {
+  display: flex;
+  margin-top: 15px;
+}
+
+.category-div {
+  flex: 0.5;
+}
+
+.category-div-1 {
+  flex: 1;
+  font-size: 14px;
+  color: #C4C4C4;
+  display: flex;
+  justify-content: space-between;
+}
+
+.category-div-2 {
+  flex: 1;
+  font-size: 14px;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .header-brand {
