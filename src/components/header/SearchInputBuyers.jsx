@@ -31,7 +31,7 @@ const SearchInputBuyers = () => {
               backgroundColor: "rgb(247, 247, 247)",
               borderRadius: 6,
               outline: "none",
-              padding: 8.3,
+              padding: 4,
               paddingLeft: 20,
               fontSize: "13px",
               color: "rgb(130, 130, 130)"

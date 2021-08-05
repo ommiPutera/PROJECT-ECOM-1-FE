@@ -15,7 +15,7 @@ export default function IconHeaderBuyers() {
               <ShoppingCartOutlinedIcon
                 style={{
                   fontSize: "27px",
-                  color: "#C4C4C4"
+                  color: "rgb(80, 80, 80)"
                 }}
               />
             </Badge>

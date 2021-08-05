@@ -9,9 +9,9 @@ const useStyles = makeStyles((theme) => ({
   black: {
     color: theme.palette.getContrastText(deepPurple[500]),
     backgroundColor: "#185ADB",
-    width: "35px",
-    height: "35px",
-    fontSize: "15px",
+    width: "34px",
+    height: "34px",
+    fontSize: "14px",
     marginRight: "15px",
   },
   imageProfile: {
@@ -40,7 +40,7 @@ export default function NameHeaderBuyers() {
           ) : (
             <Avatar className={classes.black}>JA</Avatar>
           )}
-          <p style={{ fontWeight: "700", fontSize: "17px", color: "#185ADB" }}>Jamaludin</p>
+          <p style={{ fontWeight: "700", fontSize: "15px", color: "#185ADB" }}>Jamaludin</p>
         </div>
       </Link>
     </div>

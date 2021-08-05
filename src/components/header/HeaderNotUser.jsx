@@ -32,13 +32,13 @@ const HeaderBuyers = () => {
     <div className="header-parent-container">
       <div className="container-header-top">
       <div className="container-inside-cht">
-          <Link to="/" className="link" style={{ color: "#C4C4C4" }}>
+          <Link to="/" className="link" style={{ color: "rgb(80, 80, 80)" }}>
             <p>About</p>
           </Link>
-          <Link to="/" className="link" style={{ color: "#C4C4C4" }}>
+          <Link to="/" className="link" style={{ color: "rgb(80, 80, 80)" }}>
             <p>Help</p>
           </Link>
-          <Link to="/" className="link" style={{ color: "#C4C4C4" }}>
+          <Link to="/" className="link" style={{ color: "rgb(80, 80, 80)" }}>
             <p>Contact us</p>
           </Link>
         </div>
@@ -65,7 +65,7 @@ const HeaderBuyers = () => {
               <Link
                 to={val.categoryName}
                 className="link"
-                style={{ color: "#C4C4C4" }}
+                style={{ color: "rgb(80, 80, 80)" }}
               >
                 <p>{val.categoryName}</p>
               </Link>

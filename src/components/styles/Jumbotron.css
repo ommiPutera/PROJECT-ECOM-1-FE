@@ -1,14 +1,20 @@
+.jumbotron-container {
+  width: 100%;
+  height: auto;
+}
+
 .botton-jbt-shop {
   display: flex;
-  position: fixed;
-  justify-content: center;
+  position: sticky;
   align-items: center;
-  right: 0;
-  margin-top: -120px;
-  margin-right: 83px;
-  background-color: rgb(247, 247, 247);
+  justify-content: center;
+  margin-top: -100px;
+  margin-left: 7%;
+  background-color: #185ADB;
   width: 130px;
-  height: 45px;
-  font-weight: 800;
+  height: 40px;
+  font-weight: 900;
   border-radius: 5px;
+  font-size: 16px;
+  color: white;
 }

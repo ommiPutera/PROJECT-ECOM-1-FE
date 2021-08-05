@@ -13,13 +13,14 @@ export default function IconHeaderBuyers() {
   return (
     <div className="icon-header-buyers-container">
       <div className="ihb-left">
+      <div className="back-black"></div>
         <div className="ihb-icon-container iic-1">
           <Link to="/cart" className="link ihb-icon">
             <Badge badgeContent={0} color="secondary">
               <ShoppingCartOutlinedIcon
                 style={{
                   fontSize: "27px",
-                  color: "#C4C4C4"
+                  color: "rgb(80, 80, 80)",
                 }}
               />
             </Badge>
@@ -31,11 +32,11 @@ export default function IconHeaderBuyers() {
         </div>
         <div className="ihb-icon-container iic-2">
           <Link to="/cart" className="link ihb-icon">
-            <Badge badgeContent={0} color="secondary">
+            <Badge badgeContent={9} color="secondary">
               <NotificationsNoneIcon
                 style={{
                   fontSize: "28px",
-                  color: "#C4C4C4"
+                  color: "rgb(80, 80, 80)",
                 }}
               />
             </Badge>
@@ -47,11 +48,11 @@ export default function IconHeaderBuyers() {
         </div>
         <div className="ihb-icon-container iic-3">
           <Link to="/cart" className="link ihb-icon">
-            <Badge badgeContent={0} color="secondary">
+            <Badge badgeContent={1} color="secondary">
               <MailOutlineIcon
                 style={{
                   fontSize: "28px",
-                  color: "#C4C4C4"
+                  color: "rgb(80, 80, 80)",
                 }}
               />
             </Badge>

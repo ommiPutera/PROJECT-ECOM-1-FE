@@ -22,22 +22,20 @@
 }
 
 .parent-header-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   box-shadow: rgb(0 0 0 / 7%) 0px 4px 6px;
-  height: 120px;
-  padding: 0 4% 0 4%;
+  height: 70px;
+  padding: 13px 4% 0px 4%;
   background-color: white;
 }
 
 .header-buyers-container {
   display: flex;
+  align-items: center;
 }
 
 .header-buyers-container-bottom {
   display: flex;
-  margin-top: 15px;
+  margin-top: 8px;
 }
 
 .category-div {
@@ -55,6 +53,7 @@
 .category-div-2 {
   flex: 1;
   font-size: 14px;
+  color: rgb(80, 80, 80);
   display: flex;
   justify-content: flex-end;
 }
@@ -85,11 +84,11 @@
 }
 
 .hb-center-2 {
-  flex: 1.8;
+  flex: 1.7;
 }
 
 .hb-right {
-  flex: 1.2;
+  flex: 1.1;
 }
 
 .hb-right-notuser {

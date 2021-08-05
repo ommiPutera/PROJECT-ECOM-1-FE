@@ -25,24 +25,25 @@ const HeaderBuyers = () => {
       categoryName: "Gadget",
     },
   ]);
- 
-  const [alamat, setAlamat] = useState(" Jl. Flamboyan 1")
+
+  const [alamat, setAlamat] = useState(" Jl. Flamboyan 1");
 
   return (
     <div className="header-parent-container">
       <div className="container-header-top">
         <div className="container-inside-cht">
-          <Link to="/" className="link" style={{ color: "#C4C4C4" }}>
+          <Link to="/" className="link" style={{ color: "rgb(80, 80, 80)" }}>
             <p>About</p>
           </Link>
-          <Link to="/" className="link" style={{ color: "#C4C4C4" }}>
+          <Link to="/" className="link" style={{ color: "rgb(80, 80, 80)" }}>
             <p>Help</p>
           </Link>
-          <Link to="/" className="link" style={{ color: "#C4C4C4" }}>
+          <Link to="/" className="link" style={{ color: "rgb(80, 80, 80)" }}>
             <p>Contact us</p>
           </Link>
         </div>
       </div>
+
       <div className="parent-header-container">
         <div className="header-buyers-container">
           <div className="hb-left">
@@ -57,21 +58,23 @@ const HeaderBuyers = () => {
             <IconHeaderBuyers />
           </div>
         </div>
+
         <div className="header-buyers-container-bottom">
           <div className="category-div"></div>
           <div className="category-div-1">
             {category.map((val) => (
-              <Link to={val.categoryName} className="link" style={{ color: "#C4C4C4" }}>
+              <Link
+                to={val.categoryName}
+                className="link"
+                style={{ color: "rgb(80, 80, 80)" }}
+              >
                 <p>{val.categoryName}</p>
               </Link>
             ))}
           </div>
           <div className="category-div-2">
             <p>
-              Kirim ke {" "}
-              <span style={{ fontWeight: "800" }}>
-                {alamat}
-              </span>
+              Kirim ke <span style={{ fontWeight: "800" }}>{alamat}</span>
             </p>
           </div>
         </div>

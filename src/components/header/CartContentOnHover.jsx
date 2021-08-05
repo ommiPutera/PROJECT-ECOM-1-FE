@@ -11,18 +11,18 @@ import "../styles/CartContentOnHover.css";
 export default function IconHeaderBuyers(props) {
   const [icon, setIcon] = useState(props.icon);
   const [products, setProduct] = useState([
-    {
-      productName:
-        "Charger Samsung Galaxy A6 A6+ plus Original 100% cas casan ori carger",
-      price: "Rp. 78.380",
-      totalProduct: "1",
-    },
-    {
-      productName:
-        "Samsung Smart Monitor M5 27 S27AM500 HDR10 FHD LS27AM500NEXXD",
-      price: "Rp. 4.360.000",
-      totalProduct: "1",
-    },
+    // {
+    //   productName:
+    //     "Charger Samsung Galaxy A6 A6+ plus Original 100% cas casan ori carger",
+    //   price: "Rp. 78.380",
+    //   totalProduct: "1",
+    // },
+    // {
+    //   productName:
+    //     "Samsung Smart Monitor M5 27 S27AM500 HDR10 FHD LS27AM500NEXXD",
+    //   price: "Rp. 4.360.000",
+    //   totalProduct: "1",
+    // },
   ]);
 
   const renderCartContent = () => {

@@ -1,0 +1,35 @@
+.container-home {
+  margin: 6% 4% 0 4%;
+}
+
+.promo-container {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+}
+
+.category-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 1.5% 0 3% 0;
+  height: 50px;
+  max-height: 50px;
+}
+
+.promo-flex {
+  width: auto;
+  height: auto;
+}
+
+.category-name {
+  width: auto;
+  max-width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  margin: 0 4% 0 4%;
+  font-size: 13px;
+  padding: 10px 30px;
+  background-color: #F1F1F1;
+}
