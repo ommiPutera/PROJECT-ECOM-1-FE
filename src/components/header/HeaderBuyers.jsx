@@ -66,9 +66,9 @@ const HeaderBuyers = () => {
               <Link
                 to={val.categoryName}
                 className="link"
-                style={{ color: "rgb(80, 80, 80)" }}
+                style={{ color: "rgb(80, 80, 80)", fontSize: "12px" }}
               >
-                <p>{val.categoryName}</p>
+                <p>{val.categoryName}..</p>
               </Link>
             ))}
           </div>

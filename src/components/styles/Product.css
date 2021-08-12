@@ -1,0 +1,123 @@
+.product-list-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.product-list-container-2 {
+  display: flex;
+}
+.full-list {
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+.pl-card {
+  display: flex;
+  justify-content: space-around;
+  flex: 1;
+}
+.pl-left {
+  flex: 1;
+}
+.pl-right {
+  flex: 1;
+  background-color: rgb(180, 180, 180);
+}
+
+
+.card-container {
+  width: 190px;
+  height: 100%;
+  border-radius: 8px;
+  box-shadow: rgb(0 0 0 / 12%) 0px 0px 7px;
+}
+.product-info-cont {
+  padding: 15px 10px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.card-content {
+  border-radius: 8px;
+  background-color: white;
+}
+.product-img {
+  width: 100%;
+  height: 50%;
+}
+.product-img img{
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.product-name {
+  width: 100%;
+  font-size: 13px;
+  height: fit-content;
+  max-height: 50px;
+}
+.product-price-and-sold {
+  margin-top: 9px;
+  display: flex;
+  justify-content: space-between;
+}
+.product-price-and-sold :nth-child(1) {
+  font-weight: 800;
+  color: red;
+  font-size: 14px;
+}
+.product-price-and-sold :nth-child(2) {
+  display: flex;
+  font-weight: 700;
+  color: rgb(150, 150, 150);
+  align-items: center;
+  font-size: 11px;
+}
+.workshop-location {
+  margin-top: 9px;
+  display: flex;
+  justify-content: space-between;
+}
+.workshop-location :nth-child(1) {
+  font-size: 11px;
+}
+.diskon {
+  margin-top: 10px;
+  margin-right: 10px;
+  font-size: 11px;
+  font-weight: 700;
+  width: fit-content;
+  background-color: orangered;
+  padding: 5px 8px;
+}
+.potongan {
+  display: flex;
+  font-weight: bold;
+  align-items: center;
+  margin-top: 10px;
+}
+.color-text-50 {
+  background-color: #FFC947 !important;
+}
+.color-text-20 {
+  background-color: #185ADB !important;
+  color: white;
+}
+.color-text-30 {
+  background-color: #0A1931 !important;
+  color: white;
+}
+
+.lm-container {
+  display: flex;
+  justify-content: center;
+}
+.load-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+  background-color: #185ADB;
+  border-radius: 8px;
+  margin: 3% 0 2% 0;
+  width: 200px;
+  height: 40px;
+  font-weight: 700;
+}
