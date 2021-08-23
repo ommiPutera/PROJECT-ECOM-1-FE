@@ -9,16 +9,16 @@ const useStyles = makeStyles((theme) => ({
   black: {
     color: theme.palette.getContrastText(deepPurple[500]),
     backgroundColor: "#185ADB",
-    width: "34px",
-    height: "34px",
-    fontSize: "14px",
-    marginRight: "15px",
+    width: "29px",
+    height: "29px",
+    fontSize: "11px",
+    marginRight: "12px",
   },
   imageProfile: {
-    width: "35px",
-    height: "35px",
-    fontSize: "15px",
-    marginRight: "10px",
+    width: "29px",
+    height: "29px",
+    fontSize: "12px",
+    marginRight: "12px",
   },
 }));
 
@@ -30,7 +30,7 @@ export default function NameHeaderBuyers() {
   return (
     <div className="name-header-buyers-container">
       <Link to="/cart" className="link nhb-content">
-        <div className="nhb-name">
+        <div className="nhb-name" style={{ width: "100px", height: "35px" }}>
           {profile ? (
             <Avatar
               className={classes.imageProfile}
@@ -40,7 +40,7 @@ export default function NameHeaderBuyers() {
           ) : (
             <Avatar className={classes.black}>JA</Avatar>
           )}
-          <p style={{ fontWeight: "700", fontSize: "15px", color: "#185ADB" }}>Jamaludin</p>
+          <p style={{ fontWeight: "700", fontSize: "13px", color: "#185ADB" }}>Jamaludin</p>
         </div>
       </Link>
     </div>

@@ -43,11 +43,15 @@
 }
 
 .category-div-1 {
+  font-size: 13px;
   flex: 1;
-  font-size: 14px;
   color: #C4C4C4;
   display: flex;
   justify-content: space-between;
+}
+.category-div-1.nt-user {
+  margin-left: 50px;
+  flex: 1.5;
 }
 
 .category-div-2 {

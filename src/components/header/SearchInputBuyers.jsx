@@ -28,12 +28,12 @@ const SearchInputBuyers = () => {
         >
           <InputBase
             style={{
-              backgroundColor: "rgb(247, 247, 247)",
-              borderRadius: 6,
+              backgroundColor: "rgb(249, 249, 249)",
+              borderRadius: 4,
               outline: "none",
-              padding: 4,
+              padding: 2,
               paddingLeft: 20,
-              fontSize: "13px",
+              fontSize: "11.5px",
               color: "rgb(130, 130, 130)"
             }}
             value={searchProduct}
@@ -46,7 +46,7 @@ const SearchInputBuyers = () => {
                   // onClick={}
                 >
                   <SearchIcon
-                    style={{ color: "#C4C4C4", fontSize: "23px" }}
+                    style={{ color: "#C4C4C4", fontSize: "17px" }}
                     // onClick={}
                   />
                 </IconButton>

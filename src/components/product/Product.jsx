@@ -8,32 +8,43 @@ import "../styles/Product.css";
 
 export default function Product(props) {
   const [limit, setLimit] = useState(10);
-  const [slideIndex, setSlideIndex] = useState(1);
+  const [next, setNext] = useState(false);
   const [productListPertama, setProductListPertama] = useState([]);
   const [productListKedua, setProductListKedua] = useState([]);
   const [productListFlashSale, setProductListFlashSale] = useState([]);
 
-  const nextSlide = () => {
-    if (slideIndex !== productListFlashSale.length) {
-      setSlideIndex(slideIndex + 1);
-    } else if (slideIndex === productListFlashSale.length) {
-      setSlideIndex(1);
-    }
+  const rollingArr = () => {
+    return productListFlashSale.map((data, index) => (
+      <div className="pl-left-fs">
+        <div className="pl-card-fs">{cardTmplet(data)}</div>
+      </div>
+    ));
   };
-  const prevSlide = () => {
-    if (slideIndex !== 1) {
-      setSlideIndex(slideIndex - 1);
-    } else if (slideIndex === 1) {
-      setSlideIndex(productListFlashSale.length);
-    }
-  };
+
+  const nextCard = () => {
+    let rollArr = [ ...productListFlashSale ]
+    let arr = rollArr
+    arr.push(arr.splice(0, 1)[0])
+    console.log(arr)
+    setProductListFlashSale(arr)
+  }
+
+  const previousCard = () => {
+    let rollArr = [ ...productListFlashSale ]
+    let arr = rollArr
+    arr.reverse()
+    arr.push(arr.splice(0, 1)[0])
+    arr.reverse()
+    console.log(arr)
+    setProductListFlashSale(arr)
+  }
 
   const cardTmplet = (value) => {
     return (
       <CardProduct
         productName={
           value.namaProduct.length >= 39
-            ? value.namaProduct.slice(0, 43) + ".."
+            ? value.namaProduct.slice(0, 35) + ".."
             : value.namaProduct
         }
         price={value.harga}
@@ -56,6 +67,7 @@ export default function Product(props) {
         location={
           value.lokasi >= 15 ? value.lokasi.slice(0, 15) + ".." : value.lokasi
         }
+        jenis={value.jenis}
         diskon={value.diskon}
         promo={value.diskon === "0" ? "" : value.diskon + "%"}
       />
@@ -131,41 +143,28 @@ export default function Product(props) {
           </div>
           <div className="lm-container">
             <div className="load-more" onClick={onLoadMoreclickAgain}>
-              Load more
+              Muat lebih banyak
             </div>
           </div>
         </div>
       ) : null}
       {props.list === "flash-sale" ? (
-        <div className="container-slider-flash-sale">
-          {productListFlashSale.map((obj, index) => {
-            return (
-              <div
-                key={obj.diskon}
-                className={
-                  slideIndex === index + 1 ? "slide active-anim" : "slide"
-                }
-              >
-                <div className="product-list-container">
-                  {obj.product.map((data, index) => (
-                    <div className="pl-left">
-                      <div className="pl-card">{cardTmplet(data)}</div>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            );
-          })}
-          <BtnSlider
-            moveSlide={nextSlide}
-            direction={"next"}
-            file={"product"}
-          />
-          <BtnSlider
-            moveSlide={prevSlide}
-            direction={"prev"}
-            file={"product"}
-          />
+        <div className="container-fs">
+          <div className={`product-list-container-fs ${next}`}> {rollingArr()} </div>
+          <div className="button-slider-fs">
+            <BtnSlider
+              moveSlide={nextCard}
+              direction={"next"}
+              file={"product"}
+            />
+          </div>
+          <div className="button-slider-fs">
+            <BtnSlider
+              moveSlide={previousCard}
+              direction={"prev"}
+              file={"product"}
+            />
+          </div>
         </div>
       ) : null}
     </div>

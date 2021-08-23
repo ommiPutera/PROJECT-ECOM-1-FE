@@ -9,6 +9,9 @@ export default function Product(props) {
           <div className="product-img">
             <img src={props.src} alt="prod" width="100%" height="100%" />
           </div>
+          <div className={`jenis-usaha tk-${props.jenis}`}>
+            <p>{props.jenis}</p>
+          </div>
           <div className="product-info-cont">
             <div className="product-name">
               <p>{props.productName}</p>

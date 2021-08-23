@@ -75,15 +75,17 @@
 }
 
 .login-header {
+  font-size: 13px;
   font-weight: 700;
-  padding: 8px 30px 8px 30px;
+  padding: 8px 32px 8px 32px;
   background-color: rgb(247, 247, 247);
   color: rgb(80, 80, 80);
 }
 
 .register-header {
+  font-size: 13px;
   font-weight: 700;
-  padding: 8px 23px 8px 23px;
+  padding: 8px 32px 8px 32px;
   background-color: #185ADB;
   color: white;
 }

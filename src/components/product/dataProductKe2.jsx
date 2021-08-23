@@ -6,6 +6,7 @@ const dataProductKe2 = [
     terjual: 8530,
     lokasi: "Jakarta Barat",
     diskon: "40",
+    jenis: "UMKM",
   },
   {
     namaProduct:
@@ -15,6 +16,7 @@ const dataProductKe2 = [
     terjual: 1005,
     lokasi: "Jakarta Selatan",
     diskon: "10",
+    jenis: "Toko Resmi",
   },
   {
     namaProduct: "Blackmores Bio C 1000mg (90)",
@@ -23,6 +25,7 @@ const dataProductKe2 = [
     terjual: 8226,
     lokasi: "Kota Tanggerang Selatan",
     diskon: "50",
+    jenis: "UMKM",
   },
   {
     namaProduct: "SoundPEATS TrueFree 2 True Wireless Earbuds Black",
@@ -31,6 +34,7 @@ const dataProductKe2 = [
     terjual: 1154,
     lokasi: "Jakarta Pusat",
     diskon: "72",
+    jenis: "UMKM",
   },
   {
     namaProduct:
@@ -40,6 +44,7 @@ const dataProductKe2 = [
     terjual: 4595,
     lokasi: "Jakarta Utara",
     diskon: "10",
+    jenis: "Toko Resmi",
   },
   {
     namaProduct:
@@ -49,6 +54,8 @@ const dataProductKe2 = [
     terjual: 1273,
     lokasi: "Jakarta Utara",
     diskon: "0",
+
+    jenis: "Toko Resmi",
   },
   {
     namaProduct:
@@ -58,6 +65,7 @@ const dataProductKe2 = [
     terjual: 4757,
     lokasi: "Jakarta Utara",
     diskon: "50",
+    jenis: "UMKM",
   },
   {
     namaProduct:
@@ -67,6 +75,7 @@ const dataProductKe2 = [
     terjual: 1694,
     lokasi: "Kota Tanggerang",
     diskon: "19",
+    jenis: "Toko Resmi",
   },
   {
     namaProduct:
@@ -76,6 +85,7 @@ const dataProductKe2 = [
     terjual: 34504,
     lokasi: "Jakarta Barat",
     diskon: "0",
+    jenis: "UMKM",
   },
   {
     namaProduct:
@@ -85,6 +95,7 @@ const dataProductKe2 = [
     terjual: 1991,
     lokasi: "Jakarta Pusat",
     diskon: "50",
+    jenis: "UMKM",
   },
   {
     namaProduct:
@@ -94,6 +105,7 @@ const dataProductKe2 = [
     terjual: 6442,
     lokasi: "Depok",
     diskon: "0",
+    jenis: "Distributor",
   },
   {
     namaProduct:
@@ -103,6 +115,7 @@ const dataProductKe2 = [
     terjual: 1472,
     lokasi: "Bekasi",
     diskon: "10",
+    jenis: "UMKM",
   },
   {
     namaProduct: "Celana Dalam Pria Underwear Boxer - MIX RANDOM, M",
@@ -111,6 +124,8 @@ const dataProductKe2 = [
     terjual: 21500,
     lokasi: "Tanggerang",
     diskon: "0",
+
+    jenis: "UMKM",
   },
   {
     namaProduct: "Bubble Wrap Plastik Pembungkus Helm",
@@ -119,6 +134,7 @@ const dataProductKe2 = [
     terjual: 18800,
     lokasi: "Jawa Barat",
     diskon: "0",
+    jenis: "Distributor",
   },
   {
     namaProduct: "Realfood Stay Fit Program 12 Hari",
@@ -127,6 +143,7 @@ const dataProductKe2 = [
     terjual: 5840,
     lokasi: "Jakarta Selatan",
     diskon: "13",
+    jenis: "UMKM",
   },
   {
     namaProduct: "[FLASH SALE] Tissue NICE Facial 180s",
@@ -135,6 +152,7 @@ const dataProductKe2 = [
     terjual: 8530,
     lokasi: "Jakarta Barat",
     diskon: "40",
+    jenis: "UMKM",
   },
   {
     namaProduct:
@@ -144,6 +162,7 @@ const dataProductKe2 = [
     terjual: 1005,
     lokasi: "Jakarta Selatan",
     diskon: "10",
+    jenis: "Toko Resmi",
   },
   {
     namaProduct: "Blackmores Bio C 1000mg (90)",
@@ -152,6 +171,7 @@ const dataProductKe2 = [
     terjual: 8226,
     lokasi: "Kota Tanggerang Selatan",
     diskon: "50",
+    jenis: "UMKM",
   },
   {
     namaProduct: "SoundPEATS TrueFree 2 True Wireless Earbuds Black",
@@ -160,6 +180,7 @@ const dataProductKe2 = [
     terjual: 1154,
     lokasi: "Jakarta Pusat",
     diskon: "72",
+    jenis: "Toko Resmi",
   },
   {
     namaProduct:
@@ -169,6 +190,7 @@ const dataProductKe2 = [
     terjual: 4595,
     lokasi: "Jakarta Utara",
     diskon: "10",
+    jenis: "Toko Resmi",
   },
   {
     namaProduct:
@@ -178,6 +200,8 @@ const dataProductKe2 = [
     terjual: 1273,
     lokasi: "Jakarta Utara",
     diskon: "0",
+
+    jenis: "Toko Resmi",
   },
   {
     namaProduct:
@@ -187,6 +211,7 @@ const dataProductKe2 = [
     terjual: 4757,
     lokasi: "Jakarta Utara",
     diskon: "50",
+    jenis: "UMKM",
   },
   {
     namaProduct:
@@ -196,6 +221,7 @@ const dataProductKe2 = [
     terjual: 1694,
     lokasi: "Kota Tanggerang",
     diskon: "19",
+    jenis: "Toko Resmi",
   },
   {
     namaProduct:
@@ -205,6 +231,7 @@ const dataProductKe2 = [
     terjual: 34504,
     lokasi: "Jakarta Barat",
     diskon: "0",
+    jenis: "UMKM",
   },
   {
     namaProduct:
@@ -214,6 +241,7 @@ const dataProductKe2 = [
     terjual: 1991,
     lokasi: "Jakarta Pusat",
     diskon: "50",
+    jenis: "UMKM",
   },
   {
     namaProduct:
@@ -223,6 +251,7 @@ const dataProductKe2 = [
     terjual: 6442,
     lokasi: "Depok",
     diskon: "0",
+    jenis: "UMKM",
   },
   {
     namaProduct:
@@ -232,6 +261,7 @@ const dataProductKe2 = [
     terjual: 1472,
     lokasi: "Bekasi",
     diskon: "10",
+    jenis: "UMKM",
   },
   {
     namaProduct: "Celana Dalam Pria Underwear Boxer - MIX RANDOM, M",
@@ -240,6 +270,8 @@ const dataProductKe2 = [
     terjual: 21500,
     lokasi: "Tanggerang",
     diskon: "0",
+
+    jenis: "UMKM",
   },
   {
     namaProduct: "Bubble Wrap Plastik Pembungkus Helm",
@@ -248,6 +280,7 @@ const dataProductKe2 = [
     terjual: 18800,
     lokasi: "Jawa Barat",
     diskon: "0",
+    jenis: "UMKM",
   },
   {
     namaProduct: "Realfood Stay Fit Program 12 Hari",
@@ -256,6 +289,7 @@ const dataProductKe2 = [
     terjual: 5840,
     lokasi: "Jakarta Selatan",
     diskon: "13",
+    jenis: "UMKM",
   },
   {
     namaProduct: "[FLASH SALE] Tissue NICE Facial 180s",
@@ -264,6 +298,7 @@ const dataProductKe2 = [
     terjual: 8530,
     lokasi: "Jakarta Barat",
     diskon: "40",
+    jenis: "UMKM",
   },
   {
     namaProduct:
@@ -273,6 +308,7 @@ const dataProductKe2 = [
     terjual: 1005,
     lokasi: "Jakarta Selatan",
     diskon: "10",
+    jenis: "UMKM",
   },
   {
     namaProduct: "Blackmores Bio C 1000mg (90)",
@@ -281,6 +317,7 @@ const dataProductKe2 = [
     terjual: 8226,
     lokasi: "Kota Tanggerang Selatan",
     diskon: "50",
+    jenis: "UMKM",
   },
   {
     namaProduct: "SoundPEATS TrueFree 2 True Wireless Earbuds Black",
@@ -289,6 +326,7 @@ const dataProductKe2 = [
     terjual: 1154,
     lokasi: "Jakarta Pusat",
     diskon: "72",
+    jenis: "UMKM",
   },
   {
     namaProduct:
@@ -298,6 +336,7 @@ const dataProductKe2 = [
     terjual: 4595,
     lokasi: "Jakarta Utara",
     diskon: "10",
+    jenis: "Toko Resmi",
   },
   {
     namaProduct:
@@ -307,6 +346,8 @@ const dataProductKe2 = [
     terjual: 1273,
     lokasi: "Jakarta Utara",
     diskon: "0",
+
+    jenis: "UMKM",
   },
   {
     namaProduct:
@@ -316,6 +357,7 @@ const dataProductKe2 = [
     terjual: 4757,
     lokasi: "Jakarta Utara",
     diskon: "50",
+    jenis: "UMKM",
   },
   {
     namaProduct:
@@ -325,6 +367,7 @@ const dataProductKe2 = [
     terjual: 1694,
     lokasi: "Kota Tanggerang",
     diskon: "19",
+    jenis: "Toko Resmi",
   },
   {
     namaProduct:
@@ -334,6 +377,8 @@ const dataProductKe2 = [
     terjual: 34504,
     lokasi: "Jakarta Barat",
     diskon: "0",
+
+    jenis: "UMKM",
   },
   {
     namaProduct:
@@ -343,6 +388,7 @@ const dataProductKe2 = [
     terjual: 1991,
     lokasi: "Jakarta Pusat",
     diskon: "50",
+    jenis: "Toko Resmi",
   },
   {
     namaProduct:
@@ -352,6 +398,8 @@ const dataProductKe2 = [
     terjual: 6442,
     lokasi: "Depok",
     diskon: "0",
+
+    jenis: "UMKM",
   },
   {
     namaProduct:
@@ -361,6 +409,7 @@ const dataProductKe2 = [
     terjual: 1472,
     lokasi: "Bekasi",
     diskon: "10",
+    jenis: "UMKM",
   },
   {
     namaProduct: "Celana Dalam Pria Underwear Boxer - MIX RANDOM, M",
@@ -369,6 +418,8 @@ const dataProductKe2 = [
     terjual: 21500,
     lokasi: "Tanggerang",
     diskon: "0",
+
+    jenis: "UMKM",
   },
   {
     namaProduct: "Bubble Wrap Plastik Pembungkus Helm",
@@ -377,6 +428,7 @@ const dataProductKe2 = [
     terjual: 18800,
     lokasi: "Jawa Barat",
     diskon: "0",
+    jenis: "Distributor",
   },
   {
     namaProduct: "Realfood Stay Fit Program 12 Hari",
@@ -385,6 +437,7 @@ const dataProductKe2 = [
     terjual: 5840,
     lokasi: "Jakarta Selatan",
     diskon: "13",
+    jenis: "UMKM",
   },
   {
     namaProduct: "[FLASH SALE] Tissue NICE Facial 180s",
@@ -393,6 +446,7 @@ const dataProductKe2 = [
     terjual: 8530,
     lokasi: "Jakarta Barat",
     diskon: "40",
+    jenis: "UMKM",
   },
   {
     namaProduct:
@@ -402,6 +456,7 @@ const dataProductKe2 = [
     terjual: 1005,
     lokasi: "Jakarta Selatan",
     diskon: "10",
+    jenis: "UMKM",
   },
   {
     namaProduct: "Blackmores Bio C 1000mg (90)",
@@ -410,6 +465,7 @@ const dataProductKe2 = [
     terjual: 8226,
     lokasi: "Kota Tanggerang Selatan",
     diskon: "50",
+    jenis: "UMKM",
   },
   {
     namaProduct: "SoundPEATS TrueFree 2 True Wireless Earbuds Black",
@@ -418,6 +474,7 @@ const dataProductKe2 = [
     terjual: 1154,
     lokasi: "Jakarta Pusat",
     diskon: "72",
+    jenis: "UMKM",
   },
   {
     namaProduct:
@@ -427,6 +484,7 @@ const dataProductKe2 = [
     terjual: 4595,
     lokasi: "Jakarta Utara",
     diskon: "10",
+    jenis: "UMKM",
   },
   {
     namaProduct:
@@ -436,6 +494,8 @@ const dataProductKe2 = [
     terjual: 1273,
     lokasi: "Jakarta Utara",
     diskon: "0",
+
+    jenis: "Toko Resmi",
   },
   {
     namaProduct:
@@ -445,6 +505,7 @@ const dataProductKe2 = [
     terjual: 4757,
     lokasi: "Jakarta Utara",
     diskon: "50",
+    jenis: "UMKM",
   },
   {
     namaProduct:
@@ -454,6 +515,7 @@ const dataProductKe2 = [
     terjual: 1694,
     lokasi: "Kota Tanggerang",
     diskon: "19",
+    jenis: "Toko Resmi",
   },
   {
     namaProduct:
@@ -463,6 +525,7 @@ const dataProductKe2 = [
     terjual: 34504,
     lokasi: "Jakarta Barat",
     diskon: "0",
+    jenis: "UMKM",
   },
   {
     namaProduct:
@@ -472,6 +535,7 @@ const dataProductKe2 = [
     terjual: 1991,
     lokasi: "Jakarta Pusat",
     diskon: "50",
+    jenis: "Distributor",
   },
   {
     namaProduct:
@@ -481,6 +545,7 @@ const dataProductKe2 = [
     terjual: 6442,
     lokasi: "Depok",
     diskon: "0",
+    jenis: "UMKM",
   },
   {
     namaProduct:
@@ -490,6 +555,7 @@ const dataProductKe2 = [
     terjual: 1472,
     lokasi: "Bekasi",
     diskon: "10",
+    jenis: "UMKM",
   },
   {
     namaProduct: "Celana Dalam Pria Underwear Boxer - MIX RANDOM, M",
@@ -498,6 +564,7 @@ const dataProductKe2 = [
     terjual: 21500,
     lokasi: "Tanggerang",
     diskon: "0",
+    jenis: "UMKM",
   },
   {
     namaProduct: "Bubble Wrap Plastik Pembungkus Helm",
@@ -506,6 +573,7 @@ const dataProductKe2 = [
     terjual: 18800,
     lokasi: "Jawa Barat",
     diskon: "0",
+    jenis: "UMKM",
   },
   {
     namaProduct: "Realfood Stay Fit Program 12 Hari",
@@ -514,7 +582,8 @@ const dataProductKe2 = [
     terjual: 5840,
     lokasi: "Jakarta Selatan",
     diskon: "13",
+    jenis: "UMKM",
   },
-]
+];
 
 export default dataProductKe2;

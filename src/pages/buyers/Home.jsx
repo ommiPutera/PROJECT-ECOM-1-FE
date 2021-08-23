@@ -3,7 +3,9 @@ import { Link } from "react-router-dom";
 import HeaderBuyers from "../../components/header/HeaderBuyers";
 import HeaderNotUser from "../../components/header/HeaderNotUser";
 import ListProductCart from "../../components/product/Product";
-import Jumbotron from "../../components/jumbotron/Jumbotron";
+import JumbotronComp from "../../components/jumbotron/JumbotronComp";
+import dataJumbotron1 from "../../components/jumbotron/dataSlider";
+import dataJumbotron2 from "../../components/jumbotron/dataSliderHome";
 import Footer from "../../components/Footer";
 import Promo2 from "../../assets/promo1.png";
 import Promo1 from "../../assets/promo2.png";
@@ -11,7 +13,7 @@ import Promo3 from "../../assets/promo3.png";
 import "../styles/Home.css";
 
 const Home = () => {
-  const [isLogin, setIsLogin] = useState(true);
+  const [isLogin, setIsLogin] = useState(false);
   const [categoryHome, setCategoryHome] = useState([
     {
       category: "Elektronik",
@@ -66,7 +68,7 @@ const Home = () => {
   return (
     <div>
       {isLogin ? <HeaderBuyers /> : <HeaderNotUser />}
-      <Jumbotron />
+      <JumbotronComp data={dataJumbotron1} height="378px" length="5" />
       <div className="container-home">
         <div className="category-container pertama">
           {categoryHome.map((val) => (
@@ -110,9 +112,10 @@ const Home = () => {
             />
           </div>
         </div>
-
-        <div>
-          <h1>Terlaris</h1>
+        <div className="terlaris-section">
+          <h1 style={{ marginTop: "15px" }} className="home-text">
+            Terlaris
+          </h1>
           <ListProductCart list="1" />
         </div>
         <div className="category-container">
@@ -129,21 +132,34 @@ const Home = () => {
           ))}
         </div>
         <div className="flash-sale-section">
-          <div className="container-flash-sale-home">
-            <h2>Flash sale</h2>
-            <p>Berakhir dalam</p>
-            <div className="rundown">
-              <p>01:</p>
-              <p>30:</p>
-              <p>19</p>
+          <div className="container-text">
+            <div className="container-flash-sale-home">
+              <h2 className="home-text">Kejar diskon spesial</h2>
+              <p>Berakhir dalam</p>
+              <div className="rundown">
+                <p>01</p>
+                <h1>:</h1>
+                <p>30</p>
+                <h1>:</h1>
+                <p>19</p>
+              </div>
             </div>
+            <h1 className="home-text-lihat-semua">Lihat semua</h1>
           </div>
           <div style={{ marginTop: "50px" }}>
             <ListProductCart list="flash-sale" />
           </div>
         </div>
+        <div className="jumbotron-home">
+          <div>
+            <JumbotronComp data={dataJumbotron2} height="200px" length="2" />
+          </div>
+        </div>
         <div className="rekomendasi-section">
-          <h1 style={{ marginTop: "15px" }}>Rekomendasi</h1>
+          <div className="container-text">
+            <h1 className="home-text">Rekomendasi untuk Kamu</h1>
+            <h1 className="home-text-lihat-semua">Lihat semua</h1>
+          </div>
           <ListProductCart list="2" />
         </div>
       </div>

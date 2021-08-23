@@ -2,6 +2,10 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
+.product-list-container-fs {
+  display: flex;
+  justify-content: space-between;
+}
 .product-list-container-2 {
   display: flex;
 }
@@ -24,13 +28,13 @@
 
 
 .card-container {
-  width: 190px;
+  width: 196px;
   height: 100%;
   border-radius: 8px;
   box-shadow: rgb(0 0 0 / 12%) 0px 0px 7px;
 }
 .product-info-cont {
-  padding: 15px 10px;
+  padding: 5px 10px;
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
 }
@@ -52,8 +56,29 @@
   height: fit-content;
   max-height: 50px;
 }
+.jenis-usaha {
+  width: fit-content;
+  height: fit-content;
+  margin: -5px 0 5px 0;
+  color: white;
+  border-bottom-right-radius: 10px;
+  background-color: red;
+}
+.jenis-usaha p {
+  font-size: 11.5px;
+  padding: 3px 13px 3px 10px;
+}
+.jenis-usaha.tk-UMKM {
+  background-color: #185ADB;
+}
+.jenis-usaha.tk-Toko {
+  background-color: green;
+}
+.jenis-usaha.tk-Distributor {
+  background-color: orange;
+}
 .product-price-and-sold {
-  margin-top: 9px;
+  margin-top: 5px;
   display: flex;
   justify-content: space-between;
 }
@@ -76,6 +101,7 @@
 }
 .workshop-location :nth-child(1) {
   font-size: 11px;
+  font-weight: bold;
 }
 .diskon {
   margin-top: 10px;
@@ -83,8 +109,10 @@
   font-size: 11px;
   font-weight: 700;
   width: fit-content;
-  background-color: orangered;
-  padding: 5px 8px;
+  background-color: green;
+  color: white;
+  padding: 3px 8px;
+  border-radius: 3px;
 }
 .potongan {
   display: flex;
@@ -93,11 +121,11 @@
   margin-top: 10px;
 }
 .color-text-50 {
-  background-color: #FFC947 !important;
-}
-.color-text-20 {
   background-color: #185ADB !important;
   color: white;
+}
+.color-text-40 {
+  background-color: #FFC947 !important;
 }
 .color-text-30 {
   background-color: #0A1931 !important;
@@ -117,7 +145,44 @@
   background-color: #185ADB;
   border-radius: 8px;
   margin: 3% 0 2% 0;
-  width: 200px;
-  height: 40px;
+  width: 240px;
+  height: 45px;
   font-weight: 700;
+}
+
+.container-slider-flash-sale {
+  width: 100%;
+  height: 310px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.container-fs:hover .button-slider-fs {
+  display: block;
+}
+.button-slider-fs {
+  display: none;
+}
+
+
+.container-fs {
+  position: relative;
+  width: 100%;
+}
+.product-list-container-fs {
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  padding: 0 0 5px 0;
+}
+.pl-left-fs {
+  flex: 1;
+  margin-right: 15px;
+}
+.pl-card-fs {
+  display: flex;
+  justify-content: space-around;
+  flex: 1;
+  transition: 2s ease-in-out;
 }

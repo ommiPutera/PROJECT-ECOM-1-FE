@@ -19,7 +19,7 @@ export default function IconHeaderBuyers() {
             <Badge badgeContent={0} color="secondary">
               <ShoppingCartOutlinedIcon
                 style={{
-                  fontSize: "27px",
+                  fontSize: "23px",
                   color: "rgb(80, 80, 80)",
                 }}
               />
@@ -35,7 +35,7 @@ export default function IconHeaderBuyers() {
             <Badge badgeContent={9} color="secondary">
               <NotificationsNoneIcon
                 style={{
-                  fontSize: "28px",
+                  fontSize: "23px",
                   color: "rgb(80, 80, 80)",
                 }}
               />
@@ -51,7 +51,7 @@ export default function IconHeaderBuyers() {
             <Badge badgeContent={1} color="secondary">
               <MailOutlineIcon
                 style={{
-                  fontSize: "28px",
+                  fontSize: "23px",
                   color: "rgb(80, 80, 80)",
                 }}
               />
